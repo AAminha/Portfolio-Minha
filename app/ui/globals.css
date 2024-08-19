@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .title-1 {
+    font-family: 'NanumSquareNeo';
+    font-weight: 900;
+    font-size: 55px;
+    line-height: normal;
+  }
+
+  .title-2 {
+    font-family: 'NanumSquareNeo';
+    font-weight: 800;
+    font-size: 55px;
+    line-height: normal;
+  }
+
+  .title-3 {
+    font-family: 'Kanit';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+  }
+
+  .title-4 {
+    font-family: 'Kanit';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: normal;
+  }
+
+  .header-1 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: normal;
+  }
+
+  .header-2 {
+    font-family: 'NanumSquareNeo';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .header-3 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .body-1 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .body-2 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: 0.4px;
+  }
+
+  .body-3 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .body-4 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .body-5 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: 0.4px;
+  }
+
+  .label-1 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .label-2 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .label-3 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .label-4 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .label-5 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .label-6 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: normal;
+  }
+}
