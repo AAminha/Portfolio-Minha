@@ -5,6 +5,7 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     './src/styles/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/containers/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -54,12 +55,12 @@ const config: Config = {
       },
       screens: {
         xs: { max: '375px' },
-        sm: { min: '376px', max: '640px' },
-        md: { min: '641px', max: '768px' },
-        lg: { min: '769px', max: '960px' },
+        sm: { min: '375px', max: '640px' },
+        md: { min: '640px', max: '768px' },
+        lg: { min: '768px', max: '960px' },
         xl: { min: '961px', max: '1024px' },
-        '2xl': { min: '1025px', max: '1280px' },
-        '3xl': { min: '1281px' },
+        '2xl': { min: '1024px', max: '1280px' },
+        '3xl': { min: '1280px' },
       },
     },
   },
