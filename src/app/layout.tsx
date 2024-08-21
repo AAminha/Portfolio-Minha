@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 import { Header } from '@src/components/Header'
+import { SectionProvider } from '@src/contexts/SectionContext'
 import '@src/styles/font.css'
 import '@src/styles/globals.css'
 
@@ -40,9 +41,12 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <Header />
-        <main>{children}</main>
-        <footer>푸터 들어갈 예정</footer>
+        <SectionProvider>
+          <Header />
+          <main>{children}</main>
+          <div className="h-[100px]">간격</div>
+        </SectionProvider>
+        <footer>푸터</footer>
       </body>
     </html>
   )

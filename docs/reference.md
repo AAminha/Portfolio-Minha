@@ -4,6 +4,8 @@
 - [폴더 구조](https://miriya.net/blog/cliz752zc000lwb86y5gtxstu)
 - [SEO](https://recodelog.com/blog/seo/next-js#0-seo%EB%9E%80-seo%EB%A5%BC-%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 
+- [섹션 메뉴 활성화](https://soyeori.tistory.com/36)
+
 ### 아직 안 읽어봤지만 막히면 읽어보자
 
 - https://fe-developers.kakaoent.com/2022/220303-tailwind-tips/
