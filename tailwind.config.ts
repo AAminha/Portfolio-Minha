@@ -2,16 +2,13 @@ import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/styles/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/containers/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
         default: {
           black: '#000000',
@@ -56,7 +53,15 @@ const config: Config = {
         NanumSquareNeo: ['NanumSquareNeo', 'sans-serif'],
         SpoqaHanSansNeo: ['SpoqaHanSansNeo', 'sans-serif'],
       },
-      screens: {},
+      screens: {
+        xs: { max: '375px' },
+        sm: { min: '375px', max: '640px' },
+        md: { min: '640px', max: '768px' },
+        lg: { min: '768px', max: '960px' },
+        xl: { min: '961px', max: '1024px' },
+        '2xl': { min: '1024px', max: '1280px' },
+        '3xl': { min: '1280px' },
+      },
     },
   },
   plugins: [],
