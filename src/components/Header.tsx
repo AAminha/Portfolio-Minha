@@ -14,7 +14,7 @@ interface NavContentProps {
   key: keyof SectionContextType
 }
 
-const NavContent: NavContentProps[] = [
+const NAV_CONTENT: NavContentProps[] = [
   { title: 'About Me', key: 'aboutMe' },
   { title: 'Archiving', key: 'archiving' },
   { title: 'Skills', key: 'skills' },
@@ -47,7 +47,7 @@ export const Header = () => {
         />
         <nav className="">
           <ul className="header-4 flex gap-x-10 text-white sm:hidden md:hidden lg:hidden xs:hidden">
-            {NavContent.map((content) => (
+            {NAV_CONTENT.map((content) => (
               <li
                 key={content.title}
                 className={clsx(
@@ -69,7 +69,7 @@ export const Header = () => {
       {isOpenMobileMenu && currentWidth <= 960 && (
         <nav className="mx-14 py-2">
           <ul className="header-4 text-white">
-            {NavContent.map((content) => (
+            {NAV_CONTENT.map((content) => (
               <li
                 key={content.title}
                 className={clsx(
