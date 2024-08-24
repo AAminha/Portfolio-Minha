@@ -45,8 +45,9 @@ const config: Config = {
           primary: 'rgb(31, 27, 84, 0.7)',
           white: 'rgb(255, 255, 255, 0.3)',
         },
-        github: '#1F2328',
+        github: '#2D3239',
         velog: '#20C997',
+        velogDark: '#1BAB81',
       },
       fontFamily: {
         Kanit: ['Kanit', 'sans-serif'],
@@ -61,6 +62,9 @@ const config: Config = {
         xl: { min: '961px', max: '1024px' },
         '2xl': { min: '1024px', max: '1280px' },
         '3xl': { min: '1280px' },
+      },
+      boxShadow: {
+        blackShadow: '5px 5px 20px 0px rgba(0, 0, 0, 0.25)',
       },
     },
   },
