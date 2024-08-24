@@ -37,7 +37,7 @@ export const Header = () => {
   }
 
   return (
-    <header className="fixed w-full bg-shadow-primary">
+    <header className="fixed z-10 w-full bg-shadow-primary">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-14 py-4 sm:px-5 xs:px-5">
         <LogoWhite
           className="h-12 cursor-pointer sm:h-[34px] xs:h-[34px]"
