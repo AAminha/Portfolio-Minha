@@ -32,7 +32,7 @@ export const AboutMe = () => {
           {Object.entries(PROFILE_INFORMATION).map(([key, value]) => (
             <div
               key={key}
-              className="flex gap-[30px] sm:flex-col sm:gap-[10px] xs:flex-col xs:gap-[10px]"
+              className="flex gap-[30px] sm:flex-col sm:gap-2.5 xs:flex-col xs:gap-2.5"
             >
               <div className="body-1 w-[91px] text-primary-500">{key}</div>
               <div className="body-4 text-black">{value}</div>
