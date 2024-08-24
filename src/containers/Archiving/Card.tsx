@@ -9,8 +9,8 @@ interface CardProps {
 
 export const Card = ({ information }: CardProps) => {
   return (
-    <div className="flex min-h-[348px] w-[415px] flex-col items-center justify-center rounded-[20px] bg-white px-[40px] pb-[35px] pt-[50px] shadow-md sm:px-[20px] sm:pb-[20px] sm:pt-[30px] xs:px-[20px] xs:pb-[20px] xs:pt-[30px]">
-      <h2 className="header-2 mb-[40px] flex gap-[15px] text-black">
+    <div className="flex min-h-[348px] w-[415px] flex-col items-center justify-center rounded-[20px] bg-white px-10 pb-[35px] pt-[50px] shadow-blackShadow sm:px-5 sm:pb-5 sm:pt-[30px] xs:px-5 xs:pb-5 xs:pt-[30px]">
+      <h2 className="header-2 mb-10 flex gap-[15px] text-black">
         {information.icon} {information.title}
       </h2>
       <div className="mb-[30px]">
@@ -25,13 +25,13 @@ export const Card = ({ information }: CardProps) => {
       </div>
       <button
         className={clsx(
-          'label-4 flex w-full items-center justify-between rounded-[12px] px-[20px] py-[14px] text-white',
+          'label-4 flex w-full items-center justify-between rounded-lg px-5 py-3.5 text-white',
           information.title === 'Github' && 'bg-github hover:bg-black',
-          information.title === 'Velog' && 'hover:bg-velogDark bg-velog'
+          information.title === 'Velog' && 'bg-velog hover:bg-velogDark'
         )}
         onClick={() => window.open(information.link, '_blank')}
       >
-        <div className="h-[20px] w-[20px]" />
+        <div className="h-5 w-5" />
         {information.title} 바로가기
         <ArrowRightIcon />
       </button>
