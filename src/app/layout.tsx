@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   description: '안녕하세요. 프론트 개발자를 꿈꾸는 안민하입니다.',
   icons: {
-    icon: '/svgs/favicon.svg',
+    icon: '/logo/favicon.svg',
   },
   /* robots: 'index, follow',
   openGraph: {
@@ -45,7 +45,6 @@ export default function RootLayout({
         <SectionProvider>
           <Header />
           <main>{children}</main>
-          <div className="h-[100px]">간격</div>
         </SectionProvider>
         <Footer />
       </body>
