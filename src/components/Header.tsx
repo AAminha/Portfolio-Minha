@@ -26,6 +26,7 @@ export const Header = () => {
   const currentWidth = useWindowWidth()
   const sectionRefs = useSectionRefs()
   const activeSection = useSectionObserver([
+    sectionRefs.intro,
     sectionRefs.aboutMe,
     sectionRefs.archiving,
     sectionRefs.skills,
