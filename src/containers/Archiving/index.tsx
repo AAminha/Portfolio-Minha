@@ -1,6 +1,6 @@
 'use client'
 
-import { GithubIcon, VelogIcon } from '@public/svg'
+import { GithubBlackIcon, VelogIcon } from '@public/svg'
 import { Card } from '@src/containers/Archiving/Card'
 import { useSectionRefs } from '@src/contexts/SectionContext'
 
@@ -15,7 +15,7 @@ export interface ArchivingInformation {
 const ARCHIVING_INFORMATION: ArchivingInformation[] = [
   {
     title: 'Github',
-    icon: <GithubIcon />,
+    icon: <GithubBlackIcon />,
     subtitle: '소스코드 저장소',
     description: [
       '팀 프로젝트, 개인 프로젝트의 소스코드 저장',

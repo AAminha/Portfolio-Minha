@@ -1,6 +1,8 @@
 import ArrowRightIcon from './arrow-right.svg'
-import GithubIcon from './github-circle.svg'
+import GithubBlackIcon from './github-black.svg'
+import GithubWhiteIcon from './github-white.svg'
 import MenuIcon from './menu.svg'
 import VelogIcon from './velog.svg'
+import YoutubeIcon from './youtube.svg'
 
-export { ArrowRightIcon, GithubIcon, MenuIcon, VelogIcon }
+export { ArrowRightIcon, GithubBlackIcon, GithubWhiteIcon, MenuIcon, VelogIcon, YoutubeIcon }

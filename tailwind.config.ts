@@ -48,6 +48,8 @@ const config: Config = {
         github: '#2D3239',
         velog: '#20C997',
         velogDark: '#1BAB81',
+        youtube: '#E7161A',
+        youtubeDark: '#B31215',
       },
       fontFamily: {
         Kanit: ['Kanit', 'sans-serif'],
