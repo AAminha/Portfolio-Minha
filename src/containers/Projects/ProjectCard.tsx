@@ -30,7 +30,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           <h2 className="header-1 mb-1.5 text-black">{project.title}</h2>
           <h4 className="label-2 text-black">{project.subtitle}</h4>
         </div>
-        <p className="label-5 text-gray-500">{project.description}</p>
+        <p className="label-2 text-gray-500">{project.description}</p>
         <div className="mt-auto flex gap-3 xs:gap-1.5">
           {project.github && <Button variant="github" link={project.github} />}
           <Button variant="default" link="" />

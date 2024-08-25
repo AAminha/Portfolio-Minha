@@ -30,7 +30,7 @@ const PROJECTS: Project[] = [
     image: QtudyImg,
     subtitle: '"AI가 생성한 퀴즈와 요약으로 효율적인 학습을 돕는 서비스"',
     description:
-      'ChatGPT를 활용해 퀴즈나 요약을 생성해주는 서비스입니다. 업로드한 pdf, 이미지 파일 혹은 입력한 텍스트를 기반으로 AI가 퀴즈나 요약을 생성해줍니다. 또한, 카테고리로 퀴즈나 요약을 관리할 수 있습니다.',
+      '업로드한 pdf, 이미지 파일 혹은 입력한 텍스트를 기반으로 ChatGPT를 활용한 AI가 퀴즈나 요약을 생성해줍니다. 또한, 카테고리로 퀴즈나 요약을 관리할 수 있습니다.',
     skill: ['React', 'TypeScript', 'styled-components', 'etc'],
     github: 'https://github.com/capstone-five-ai/Qtudy-FE',
     service: 'https://www.qtudy.com/',
@@ -41,7 +41,7 @@ const PROJECTS: Project[] = [
     image: SelpieceImg,
     subtitle: '나만의 조각을 찾아 고유한 브랜드를 디자인하는 공간',
     description:
-      '퍼스널 브랜딩의 초기 여정에서 겪는 명확한 방향 설정의 어려움에 대한 솔루션을 제공하기 위한 서비스입니다. 다양한 테스트를 통해 나만의 조각을 찾아내고 맞춤 프로그램을 확인할 수 있습니다.',
+      '퍼스널 브랜딩의 초기 여정에서 겪는 방향 설정의 어려움에 대한 솔루션을 제공하기 위한 서비스입니다. 테스트를 통해 나만의 조각을 찾아내고 맞춤 프로그램을 확인할 수 있습니다.',
     skill: ['React', 'TypeScript', 'styled-components', 'etc'],
     github: 'https://github.com/KUSITMS-29th-TEAM-D/Frontend',
     youtube: 'https://www.youtube.com/watch?v=jgDSXNzTFo4',
@@ -52,7 +52,7 @@ const PROJECTS: Project[] = [
     image: LandingImg,
     subtitle: '함께 만들어가는 당신의 숭실, YOURSSU',
     description:
-      '숭실대학교 IT 동아리 유어슈를 소개하기 위한 페이지로, 유어슈 부서, 인재상, 프로젝트, 유어슈 문화 등을 확인할 수 있습니다. 현재까지도 유어슈를 소개하는 페이지로 사용하고 있습니다.',
+      '숭실대학교 IT 동아리 유어슈를 소개하기 위한 페이지로, 유어슈 부서, 인재상, 프로젝트, 유어슈 문화 등을 확인할 수 있습니다. 현재도 유어슈를 소개하는 페이지로 사용하고 있습니다.',
     skill: ['Gatsby', 'Tailwind CSS', 'GraphQL'],
     github: 'https://github.com/yourssu/Yourssu-landing-page',
     service: 'https://yourssu.com',
@@ -63,7 +63,7 @@ const PROJECTS: Project[] = [
     image: RecruitingImg,
     subtitle: '당신의 손으로 바꿔나갈 당신의 숭실, YOURSSU ',
     description:
-      '유어슈에 지원하고자 하는 학생들은 리쿠르팅 페이지를 통해 각 부서별로 필요한 역량과 리쿠르팅 일정을 확인할 수 있습니다. 현재도 매 학기 리쿠르팅 시즌에 맞춰 정보를 업데이트 하며 운영하고 있습니다.',
+      '리쿠르팅 페이지를 통해 각 부서별로 필요한 역량과 리쿠르팅 일정을 확인할 수 있습니다. 현재도 매 학기 리쿠르팅 시즌에 맞춰 정보를 업데이트 하며 운영하고 있습니다.',
     skill: ['Gatsby', 'Tailwind CSS', 'GraphQL', 'Sanity CMS'],
     github: 'https://github.com/yourssu/Yourssu-landing-page',
     service: 'https://yourssu.com/recruiting',
@@ -74,7 +74,7 @@ const PROJECTS: Project[] = [
     image: AdminImg,
     subtitle: '숭실대학교 IT 동아리 유어슈를 위한 관리자 페이지',
     description:
-      '숭실대 IT 동아리 유어슈는 ‘숨쉴때’라는 앱 서비스를 개발 및 런칭해오고 있습니다. 어드민 페이지는 ‘숨쉴때’ 서비스를 관리하기 제작되었으며, 인증 메일 형식, 유저, 컨텐츠 등을 관리하고 있습니다.',
+      '숭실대 IT 동아리 유어슈는 ‘숨쉴때’라는 앱 서비스를 개발 및 런칭해오고 있습니다. 어드민 페이지는 ‘숨쉴때’ 서비스를 관리하기 제작되었으며, 인증 메일, 컨텐츠 등을 관리하고 있습니다.',
     skill: ['React', 'TypeScript', 'Tailwind CSS', 'etc'],
   },
   {
@@ -83,7 +83,7 @@ const PROJECTS: Project[] = [
     image: IGotItImg,
     subtitle: '말로만 결심하는 사람들을 위한 결심 공유 서비스',
     description:
-      '자신을 포함한 모두가 볼 수 있도록 결심을 외치고 주변 친구들에게 결심에 대한 비밀 응원 편지를 받을 수 있습니다. 3주 후에 받은 응원 편지를 확인하며 결심에 대한 결의를 다질 수 있게 도와줍니다.',
+      '모두가 볼 수 있도록 결심을 외치고 주변 친구들에게 결심에 대한 비밀 응원 편지를 받을 수 있습니다. 3주 후에 받은 응원 편지를 확인하며 결심에 대한 결의를 다질 수 있게 도와줍니다.',
     skill: ['React', 'TypeScript', 'SCSS', 'etc'],
     github: 'https://github.com/yourssu/i-got-it-frontend',
   },
