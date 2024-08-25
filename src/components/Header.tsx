@@ -52,8 +52,8 @@ export const Header = () => {
               <li
                 key={content.title}
                 className={clsx(
-                  'cursor-pointer hover:text-secondary-300',
-                  activeSection === content.key && 'text-secondary-900'
+                  'cursor-pointer',
+                  activeSection === content.key ? 'text-secondary-900' : 'hover:text-secondary-300'
                 )}
                 onClick={() => scrollToSection(content.key)}
               >
