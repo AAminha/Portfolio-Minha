@@ -25,7 +25,7 @@ export const AboutMe = () => {
     >
       <h1 className="title-3 sm:title-4 xs:title-4 mb-[70px] text-primary-500">About Me</h1>
       <div className="flex w-full max-w-[750px] items-center justify-between gap-[50px] sm:flex-col md:flex-col xs:flex-col">
-        <div className="relative h-[300px] w-[300px] overflow-hidden rounded-md rounded-br-[100px] rounded-tl-[100px] border-[5px] border-primary-500 bg-red-400 sm:h-[235px] sm:w-[235px] xs:h-[235px] xs:w-[235px]">
+        <div className="relative h-[300px] w-[300px] overflow-hidden rounded-md rounded-br-[100px] rounded-tl-[100px] border-[5px] border-primary-500 sm:h-[235px] sm:w-[235px] xs:h-[235px] xs:w-[235px]">
           <Image src={ProfileImg} alt="프로필 이미지" className="absolute top-[-25px]" />
         </div>
         <div className="flex flex-col gap-[25px]">

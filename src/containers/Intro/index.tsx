@@ -37,7 +37,7 @@ export const Intro = () => {
         </div>
         <div className="flex items-center gap-5 sm:flex-col md:flex-col lg:flex-col xs:flex-col">
           <Image src={MemojiImg} alt="미모지" width={202} height={208} />
-          <div className="3xl:body-5 2xl:body-5 label-5 flex flex-col gap-[27px] whitespace-pre-line rounded-xl bg-red-400 bg-shadow-white p-5 text-white sm:w-full md:w-full xs:w-full">
+          <div className="3xl:body-5 2xl:body-5 label-5 flex flex-col gap-[27px] whitespace-pre-line rounded-xl bg-shadow-white p-5 text-white sm:w-full md:w-full xs:w-full">
             <p>
               <span className="3xl:body-2 2xl:body-2 label-3 text-secondary-900">
                 {DESCRIPTION[0]}
