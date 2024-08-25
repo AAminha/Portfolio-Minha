@@ -19,7 +19,7 @@ export const Intro = () => {
     <section
       id="intro"
       ref={sectionRef.intro}
-      className="relative min-h-[--full-height] bg-primary-900 px-5 py-[200px] sm:py-36 md:py-[180px] xs:py-36"
+      className="relative bg-primary-900 px-5 py-[200px] sm:py-36 md:py-[180px] xs:py-36"
     >
       <div className="relative z-[2] flex h-full flex-col items-center justify-center pt-12">
         <div className="sm:header-2 xs:header-2 2xl:title-2 3xl:title-2 title-6 mb-20 text-white sm:mb-10 xs:mb-10">
