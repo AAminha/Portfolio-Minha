@@ -5,6 +5,7 @@ import { Header } from '@src/components/Header'
 import { SectionProvider } from '@src/contexts/SectionContext'
 import '@src/styles/font.css'
 import '@src/styles/globals.css'
+import '@src/styles/zoom.css'
 
 export const metadata: Metadata = {
   title: {
