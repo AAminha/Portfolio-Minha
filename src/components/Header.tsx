@@ -26,6 +26,7 @@ export const Header = () => {
   const currentWidth = useWindowWidth()
   const sectionRefs = useSectionRefs()
   const activeSection = useSectionObserver([
+    sectionRefs.intro,
     sectionRefs.aboutMe,
     sectionRefs.archiving,
     sectionRefs.skills,
@@ -51,8 +52,8 @@ export const Header = () => {
               <li
                 key={content.title}
                 className={clsx(
-                  'cursor-pointer hover:text-secondary-300',
-                  activeSection === content.key && 'text-secondary-900'
+                  'cursor-pointer',
+                  activeSection === content.key ? 'text-secondary-900' : 'hover:text-secondary-300'
                 )}
                 onClick={() => scrollToSection(content.key)}
               >
@@ -67,14 +68,14 @@ export const Header = () => {
         </nav>
       </div>
       {isOpenMobileMenu && currentWidth <= 960 && (
-        <nav className="mx-14 py-2">
+        <nav className="mx-14 py-2 sm:mx-5 xs:mx-5">
           <ul className="header-4 text-white">
             {NAV_CONTENT.map((content) => (
               <li
                 key={content.title}
                 className={clsx(
-                  'cursor-pointer px-12 py-6',
-                  activeSection === content.key && 'text-secondary-900'
+                  'cursor-pointer px-12 py-6 xs:px-6',
+                  activeSection === content.key && 'bg-shadow-white text-secondary-900'
                 )}
                 onClick={() => {
                   scrollToSection(content.key)

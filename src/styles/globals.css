@@ -8,6 +8,7 @@
     font-weight: 900;
     font-size: 55px;
     line-height: normal;
+    letter-spacing: -1px;
   }
 
   .title-2 {
@@ -15,6 +16,7 @@
     font-weight: 800;
     font-size: 55px;
     line-height: normal;
+    letter-spacing: -1px;
   }
 
   .title-3 {
@@ -28,6 +30,20 @@
     font-family: 'Kanit';
     font-weight: 700;
     font-size: 52px;
+    line-height: normal;
+  }
+
+  .title-5 {
+    font-family: 'NanumSquareNeo';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .title-6 {
+    font-family: 'NanumSquareNeo';
+    font-weight: 800;
+    font-size: 40px;
     line-height: normal;
   }
 

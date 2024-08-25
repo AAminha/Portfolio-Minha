@@ -15,7 +15,7 @@ export const useSectionObserver = (sectionRefs: RefObject<HTMLElement>[]) => {
       {
         root: null,
         rootMargin: '0px',
-        threshold: window.innerWidth <= 768 ? 0.5 : 0.8, // 설정된 threshold 값을 사용
+        threshold: 0.4,
       }
     )
 
