@@ -4,13 +4,8 @@ import Image from 'next/image'
 
 import BackgroundImg from '@public/images/intro.webp'
 import MemojiImg from '@public/images/memoji.webp'
+import { INTRO_DESCRIPTION } from '@src/constants/profile'
 import { useSectionRefs } from '@src/contexts/SectionContext'
-
-const DESCRIPTION = [
-  '새로운 도전을 통해 학습하고 성장하는 것을 즐기는 ',
-  '예비 프론트엔드 개발자입니다.\n현재에 안주하지 않고 끊임없이 개발자의 역량을 발전시키는 것을 목표로 하고 있습니다.',
-  '언제나 사용자의 관점에서 바라보며,\n제가 만든 세상에서 편리함과 즐거움을 느낄 수 있는 사용자 경험을 만들어 가겠습니다.',
-]
 
 export const Intro = () => {
   const sectionRef = useSectionRefs()
@@ -40,11 +35,11 @@ export const Intro = () => {
           <div className="3xl:body-5 2xl:body-5 label-5 flex flex-col gap-[27px] whitespace-pre-line rounded-xl bg-shadow-white p-5 text-white sm:w-full md:w-full xs:w-full">
             <p>
               <span className="3xl:body-2 2xl:body-2 label-3 text-secondary-900">
-                {DESCRIPTION[0]}
+                {INTRO_DESCRIPTION[0]}
               </span>
-              {DESCRIPTION[1]}
+              {INTRO_DESCRIPTION[1]}
             </p>
-            <p className="">{DESCRIPTION[2]}</p>
+            <p className="">{INTRO_DESCRIPTION[2]}</p>
           </div>
         </div>
       </div>

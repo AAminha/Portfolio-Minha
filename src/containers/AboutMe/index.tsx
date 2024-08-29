@@ -3,16 +3,8 @@
 import Image from 'next/image'
 
 import ProfileImg from '@public/images/profile.webp'
+import { DEFAULT_PROFILE_INFORMATION } from '@src/constants/profile'
 import { useSectionRefs } from '@src/contexts/SectionContext'
-
-const PROFILE_INFORMATION = {
-  이름: '안민하',
-  생년월일: '1999. 05. 19',
-  거주지: '인천광역시 연수구',
-  연락처: '010-4857-0677',
-  메일: 'dks4857@gmail.com',
-  '학교 / 전공': '숭실대학교 소프트웨어학부',
-}
 
 export const AboutMe = () => {
   const sectionRef = useSectionRefs()
@@ -29,7 +21,7 @@ export const AboutMe = () => {
           <Image src={ProfileImg} alt="프로필 이미지" className="absolute top-[-25px]" />
         </div>
         <div className="flex flex-col gap-[25px]">
-          {Object.entries(PROFILE_INFORMATION).map(([key, value]) => (
+          {Object.entries(DEFAULT_PROFILE_INFORMATION).map(([key, value]) => (
             <div
               key={key}
               className="flex gap-[30px] sm:flex-col sm:gap-2.5 xs:flex-col xs:gap-2.5"

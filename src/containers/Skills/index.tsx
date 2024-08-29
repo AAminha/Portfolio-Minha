@@ -2,55 +2,8 @@
 
 import clsx from 'clsx'
 
-import {
-  CSSBadge,
-  FigmaBadge,
-  GitBadge,
-  GithubBadge,
-  HTMLBadge,
-  JavaScriptBadge,
-  ReactBadge,
-  ReactQueryBadge,
-  RecoilBadge,
-  SASSBadge,
-  StyledComponentsBadge,
-  TailwindBadge,
-  TypeScriptBadge,
-  VercelBadge,
-} from '@public/images'
+import { SKILL } from '@src/constants/profile'
 import { useSectionRefs } from '@src/contexts/SectionContext'
-
-const SKILL = [
-  {
-    title: 'Language',
-    skills: {
-      HTML: <HTMLBadge />,
-      CSS: <CSSBadge />,
-      JavaScript: <JavaScriptBadge />,
-      TypeScript: <TypeScriptBadge />,
-    },
-  },
-  {
-    title: 'Frontend',
-    skills: {
-      React: <ReactBadge />,
-      'styled-components': <StyledComponentsBadge />,
-      SASS: <SASSBadge />,
-      'Tailwind CSS': <TailwindBadge />,
-      'React Query': <ReactQueryBadge />,
-      Recoil: <RecoilBadge />,
-    },
-  },
-  {
-    title: 'ETC',
-    skills: {
-      Git: <GitBadge />,
-      Github: <GithubBadge />,
-      Vercel: <VercelBadge />,
-      Figma: <FigmaBadge />,
-    },
-  },
-]
 
 export const Skills = () => {
   const sectionRef = useSectionRefs()
