@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 
 import { Footer } from '@src/components/Footer'
 import { Header } from '@src/components/Header'
+import { ProjectProvider } from '@src/contexts/ProjectContext'
 import { SectionProvider } from '@src/contexts/SectionContext'
 import '@src/styles/font.css'
 import '@src/styles/globals.css'
@@ -43,10 +44,12 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <SectionProvider>
-          <Header />
-          <main>{children}</main>
-        </SectionProvider>
+        <ProjectProvider>
+          <SectionProvider>
+            <Header />
+            <main>{children}</main>
+          </SectionProvider>
+        </ProjectProvider>
         <Footer />
       </body>
     </html>

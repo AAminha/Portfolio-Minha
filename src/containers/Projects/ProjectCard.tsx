@@ -1,13 +1,16 @@
 import Image from 'next/image'
 
-import { Project } from '@src/containers/Projects'
 import { Button } from '@src/containers/Projects/Button'
+//import { useProject } from '@src/contexts/ProjectContext'
+import { Project } from '@src/types'
 
 interface ProjectCardProps {
   project: Project
 }
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
+  //const { setActiveProject } = useProject()
+
   return (
     <div className="flex w-full max-w-[500px] flex-col overflow-hidden rounded-[20px] bg-white shadow-blackShadow">
       <Image

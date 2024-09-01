@@ -2,10 +2,12 @@
 
 import { PROJECTS } from '@src/constants/project'
 import { ProjectCard } from '@src/containers/Projects/ProjectCard'
+//import { useProject } from '@src/contexts/ProjectContext'
 import { useSectionRefs } from '@src/contexts/SectionContext'
 
 export const Projects = () => {
   const sectionRef = useSectionRefs()
+  //const { activeProject } = useProject()
 
   return (
     <section

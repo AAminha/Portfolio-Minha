@@ -10,8 +10,10 @@ export interface SectionContextType {
   projects: React.RefObject<HTMLElement>
 }
 
+// context 생성
 export const SectionContext = createContext<SectionContextType | null>(null)
 
+// value로 ref를 전달하는 provider
 export const SectionProvider = ({ children }: { children: React.ReactNode }) => {
   const sectionRefs = {
     intro: useRef<HTMLElement>(null),
@@ -24,6 +26,7 @@ export const SectionProvider = ({ children }: { children: React.ReactNode }) => 
   return <SectionContext.Provider value={sectionRefs}>{children}</SectionContext.Provider>
 }
 
+// ref를 반환하는 hook
 export const useSectionRefs = () => {
   const context = useContext(SectionContext)
   if (!context) {

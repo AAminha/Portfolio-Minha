@@ -42,7 +42,7 @@ export const Button = ({ variant, link }: ButtonProps) => {
           'border-primary-400 bg-primary-400 text-white hover:border-primary-500 hover:bg-primary-500',
         variant === 'service' && 'border-primary-400 bg-white text-primary-400 hover:bg-gray-150',
         variant === 'youtube' &&
-          'border-youtube bg-youtube hover:border-youtubeDark hover:bg-youtubeDark text-white'
+          'border-youtube bg-youtube text-white hover:border-youtubeDark hover:bg-youtubeDark'
       )}
     >
       {BUTTON_TEXT[variant].icon}
