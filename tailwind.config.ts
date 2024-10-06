@@ -9,6 +9,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      width: {
+        screen: '125vw',
+      },
+      height: {
+        screen: '125vh',
+      },
       colors: {
         default: {
           black: '#000000',
@@ -41,7 +47,7 @@ const config: Config = {
           300: '#FAECC8',
         },
         shadow: {
-          black: 'rgb(0, 0, 0, 0.25)',
+          black: 'rgb(0, 0, 0, 0.4)',
           primary: 'rgb(31, 27, 84, 0.7)',
           white: 'rgb(255, 255, 255, 0.3)',
         },
