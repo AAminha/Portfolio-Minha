@@ -21,7 +21,7 @@ export const Modal = ({ children }: ModalProps) => {
     <div className="fixed inset-0 z-10 h-screen w-screen bg-shadow-black">
       <div className="absolute inset-[2%] flex gap-[26px]">
         <div className="w-[80px]" />
-        <section className="grow bg-white">{children}</section>
+        <section className="zoom-80 grow bg-white">{children}</section>
         <aside className="my-[25px] flex w-[80px] flex-col items-center gap-[30px]">
           <button className="flex h-[60px] w-[60px] items-center justify-center rounded-[50%] bg-gray-400 hover:bg-gray-300">
             <CancelIcon />

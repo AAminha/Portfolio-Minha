@@ -1,0 +1,3 @@
+.outline-title {
+  @apply header-4 text-gray-700 mr-[60px];
+}

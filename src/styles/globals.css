@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .zoom-80 {
+    zoom: 0.8;
+  }
+}
+
 @layer base {
   .title-1 {
     font-family: 'NanumSquareNeo';
@@ -64,13 +70,27 @@
   .header-3 {
     font-family: 'SpoqaHanSansNeo';
     font-weight: 700;
-    font-size: 24px;
+    font-size: 32px;
     line-height: normal;
   }
 
   .header-4 {
     font-family: 'SpoqaHanSansNeo';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .header-5 {
+    font-family: 'SpoqaHanSansNeo';
     font-weight: 500;
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .header-6 {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 400;
     font-size: 24px;
     line-height: normal;
   }
