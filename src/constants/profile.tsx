@@ -1,4 +1,4 @@
-import { GithubBlackIcon, VelogIcon } from '@public/icons'
+import { GithubBlackIcon, VelogGreenIcon } from '@public/icons'
 import {
   CSSBadge,
   FigmaBadge,
@@ -46,7 +46,7 @@ export const ARCHIVING_INFORMATION: ArchivingInformation[] = [
   },
   {
     title: 'Velog',
-    icon: <VelogIcon />,
+    icon: <VelogGreenIcon />,
     subtitle: '공부한 내용 정리 및 공유 목적의 블로그',
     description: [
       '공부한 것을 정리하기 위한 기록',

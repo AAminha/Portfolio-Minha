@@ -1,7 +1,7 @@
 import clsx from 'clsx'
 import { useRouter } from 'next/navigation'
 
-import { GithubWhiteIcon, YoutubeIcon } from '@public/icons'
+import { GithubWhiteIcon, YoutubeWhiteIcon } from '@public/icons'
 
 interface ButtonProps {
   variant: 'default' | 'github' | 'youtube' | 'service'
@@ -16,7 +16,7 @@ interface ButtonText {
 const BUTTON_TEXT: { [key: string]: ButtonText } = {
   default: { text: '상세 설명', icon: null },
   github: { text: '깃허브', icon: <GithubWhiteIcon width={25} className="xs:hidden" /> },
-  youtube: { text: '유튜브', icon: <YoutubeIcon width={25} className="xs:hidden" /> },
+  youtube: { text: '유튜브', icon: <YoutubeWhiteIcon width={25} className="xs:hidden" /> },
   service: { text: '배포 링크', icon: null },
 }
 
